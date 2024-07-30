@@ -1,4 +1,4 @@
-head -2 3-button_styles
+$ head -2 3-button_styles
 box-sizing border-box
 color rgb(33, 37, 41)
 cursor pointer
