@@ -3,7 +3,7 @@
 // Assign values to the tags
 body {
   color: #3D3D3D;
-  .red {
+  .red { // <- Nested class
     color: #FF0000;
   }
 }
