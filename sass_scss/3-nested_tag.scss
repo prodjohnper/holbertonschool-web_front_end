@@ -1,0 +1,10 @@
+// 3-nested_tag.scss
+
+// Assign values
+body {
+  margin: 0px;
+  padding: 0px;
+  p { // <- Nested p tag
+    margin: 10px;
+  }
+}
