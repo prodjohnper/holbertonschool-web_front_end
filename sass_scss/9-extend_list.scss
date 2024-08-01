@@ -1,0 +1,16 @@
+// 9-extend_list.scss
+
+// Assign the values to the tags
+.info {
+  font-size: 12px;
+}
+
+.success {
+  @extend .info; // <- Using extend
+  color: #00FF00;
+}
+
+.warning {
+  @extend .info; // <- Using extend
+  color: #FF0000;
+}
