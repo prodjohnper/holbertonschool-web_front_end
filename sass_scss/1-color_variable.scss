@@ -1,0 +1,13 @@
+// 1-color_variable.scss
+
+// Declare color variable
+$color: #3D3D3D;
+
+// Assign text color to body and p elements
+body {
+  color: $color; // <- color variable applied
+}
+
+p {
+  color: $color;
+}
