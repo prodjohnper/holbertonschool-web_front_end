@@ -1,0 +1,17 @@
+// 10-import_colors.scss
+
+// Import the file
+@import '10-colors';
+
+// Assign the values to the tags
+.red {
+  color: $red;
+}
+
+.green {
+  color: $green;
+}
+
+.blue {
+  color: $blue;
+}
