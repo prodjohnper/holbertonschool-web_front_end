@@ -1,0 +1,9 @@
+// 6-nested_hover.scss
+
+// Assign values to the tags
+button {
+  color: #FF0000;
+  &:hover { // <- Nested hover
+    color: #00FF00;
+  }
+}
