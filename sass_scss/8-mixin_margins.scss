@@ -1,0 +1,16 @@
+// 8-mixin_margins.scss
+
+// Define mixin
+@mixin margin($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+// Assign the values to the tags
+body {
+  @include margin(10px); // <- Using mixin
+}
+
+div {
+  @include margin(15px); // <- Using mixin
+}
