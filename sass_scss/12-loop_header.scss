@@ -1,0 +1,8 @@
+// 12-loop_header.scss
+
+// Loop header values from 1 to 5
+@for $num from 1 through 5 {
+  h#{$num} { // <- Loop header values from 1 to 5
+    font-size: #{$num}px; // <- Loop font-size values from 1 to 5
+  }
+}
