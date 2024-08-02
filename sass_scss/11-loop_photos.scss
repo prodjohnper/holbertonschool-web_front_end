@@ -5,7 +5,7 @@
 
 // Loop through the list of names
 @each $name in $list-names {
-  .photo-#{$name} { // <- will loop through each name and create a class for each name
-    background-image: url("images/#{$name}.jpg") no-repeat;
+  .photo-#{$name} { // <- loop through each name and create class for each one
+    background-image: url("photos/#{$name}.jpg") no-repeat;
   }
 }
